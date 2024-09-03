@@ -16,4 +16,4 @@ from google.oauth2 import service_account
 * Manage Sheets: Create, edit, and delete sheets via API.
 
 ## Procedure
-![img]("C:\Users\fna\Downloads\Untitled.png")
+![img](images/Untitled.png)
