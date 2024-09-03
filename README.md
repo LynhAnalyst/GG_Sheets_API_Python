@@ -1,5 +1,19 @@
-### Introducing the Google Sheets API
-Google Sheets API, as its name suggests, is a set of APIs developed by Google, this set of APIs allows users to read and edit spreadsheets. Users using this API will usually have two main ways to interact with the spreadsheet:
-#### - Reading/writing only column values ​
-#### - Reading/writing any spreadsheet
-Both of the above api sets are very easy to use, especially for developers. In addition, any Reading/writing spreadsheet api set also provides a lot of options, which makes customization easier and more suitable. with the user's customzie needs.
+## Describe
+This project uses the Google Sheets API to access, read, write, and manage data in Google Sheets from a Python application. The goal is to automate tasks such as entering data, creating reports, or updating information directly in Google Sheets.
+
+## Library
+```python
+from google.oauth2.credentials import Credentials
+import os
+import gspread
+from googleapiclient.discovery import MediaFileUpload
+from googleapiclient.discovery import build
+from google.oauth2 import service_account
+```
+## Main features
+* Read data from Google Sheets: Connect and retrieve data from sheets.
+* Record data to Google Sheets: Add, update or delete data in sheets.
+* Manage Sheets: Create, edit, and delete sheets via API.
+
+## Procedure
+[img]("C:\Users\fna\Downloads\Untitled.png")
